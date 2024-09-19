@@ -1,0 +1,98 @@
+/* Estilo global */
+body {
+    font-family: 'Roboto', sans-serif; /* Aplicando a fonte Roboto */
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Fundo branco */
+    color: #000; /* Texto preto */
+    line-height: 1.6; /* Melhora a legibilidade */
+}
+
+/* Container centralizado e ajustado */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff; /* Fundo branco */
+}
+
+/* Títulos minimalistas */
+h1, h2 {
+    color: #000; /* Títulos em preto */
+    font-weight: 700; /* Títulos mais destacados */
+    text-transform: uppercase;
+    border-bottom: 1px solid #000; /* Linha inferior preta */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 2px; /* Espaçamento das letras */
+}
+
+/* Seções bem espaçadas */
+.section {
+    margin-bottom: 30px;
+}
+
+/* Listas sem estilo de marcador */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Links com estilo minimalista */
+a {
+    color: #000; /* Texto dos links em preto */
+    text-decoration: none;
+    border-bottom: 1px solid #000; /* Borda inferior preta */
+    font-weight: 300; /* Link com peso mais leve */
+}
+
+a:hover {
+    color: #555; /* Mudança de cor ao passar o mouse */
+    border-bottom: 1px solid #555;
+}
+
+/* Estilo dos itens de habilidades */
+.skills li {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin: 5px 10px 5px 0;
+    font-size: 0.9em;
+    font-weight: 400; /* Peso intermediário para as habilidades */
+}
+
+/* Estilo dos itens de experiência e formação */
+li {
+    margin-bottom: 15px;
+    font-weight: 300; /* Texto leve para maior legibilidade */
+    line-height: 1.6;
+}
+
+/* Tornando o layout responsivo */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    .skills li {
+        font-size: 0.8em;
+        padding: 5px 10px;
+    }
+}
+.profile-pic {
+    width: 150px; /* Largura da imagem */
+    height: 150px; /* Altura da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+    display: block; /* Garantir que a imagem seja exibida como um bloco */
+    margin-left: auto;
+    margin-right: auto; /* Centraliza a imagem */
+}
+
